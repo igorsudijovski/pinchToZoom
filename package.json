@@ -1,0 +1,36 @@
+{
+  "name": "@image/pinch-to-zoom",
+  "version": "1.0.0",
+  "description": "Utils function for handling pinch to zoom",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npm run lint && rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorsudijovski/pinchToZoom.git"
+  },
+  "keywords": [
+    "pinch",
+    "zoom",
+    "image",
+    "pdf",
+    "graph"
+  ],
+  "author": "Igor Sudijovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorsudijovski/pinchToZoom/issues"
+  },
+  "homepage": "https://github.com/igorsudijovski/pinchToZoom#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "^7.17.0",
+    "jest": "^26.6.3",
+    "typescript": "^4.1.3"
+  }
+}
