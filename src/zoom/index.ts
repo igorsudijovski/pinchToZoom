@@ -69,20 +69,4 @@ export const zoomAndMove = (startingPoint: FingerPinch, endingPoint: FingerPinch
 
   const newCanvas = zoomToPoint(endingCenter, scale, canvas);
   return move(startingCenter, endingCenter, newCanvas);
-  // const delta = {
-  //   x: endingCenter.x - startingCenter.x,
-  //   y: endingCenter.y - startingCenter.y
-  // };
-  //
-  // return positionInContainer(
-  //   {
-  //     element: {
-  //       offsetX: newCanvas.element.offsetX + delta.x,
-  //       offsetY: newCanvas.element.offsetY + delta.y,
-  //       width: newCanvas.element.width,
-  //       height: newCanvas.element.height
-  //     },
-  //     viewPoint: newCanvas.viewPoint
-  //   }
-  // );
 };

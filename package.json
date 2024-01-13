@@ -1,5 +1,5 @@
 {
-  "name": "@image/pinch-to-zoom",
+  "name": "container-pinch-to-zoom",
   "version": "1.0.0",
   "description": "Utils function for handling pinch to zoom",
   "main": "index.js",
@@ -17,7 +17,16 @@
     "zoom",
     "image",
     "pdf",
-    "graph"
+    "graph",
+    "touch",
+    "touchmove",
+    "pinchToZoom",
+    "pinch-to-zoom",
+    "container-pinch-to-zoom",
+    "vanilla",
+    "react",
+    "svelte",
+    "angular"
   ],
   "author": "Igor Sudijovski",
   "license": "MIT",
