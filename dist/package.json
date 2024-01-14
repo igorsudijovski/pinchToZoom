@@ -1,5 +1,5 @@
 {
-  "name": "container-pinch-to-zoom",
+  "name": "pinch-to-zoom-utils",
   "version": "1.0.2",
   "description": "Utils function for handling pinch to zoom",
   "main": "lib/es5/index.js",
@@ -24,7 +24,7 @@
     "touchmove",
     "pinchToZoom",
     "pinch-to-zoom",
-    "container-pinch-to-zoom",
+    "pinch-to-zoom-utils",
     "vanilla",
     "react",
     "svelte",

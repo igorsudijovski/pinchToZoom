@@ -5,16 +5,16 @@ The library offer vanilla Javascript function that will do the necessary calcula
 ## How to install
 
 ```
-$ npm install container-pinch-to-zoom
+$ npm install pinch-to-zoom-utils
 ```
 
 ## Usage
 
 ```ecmascript 6
-const { zoomAndMove, move } = require('container-pinch-to-zoom');
+const { zoomAndMove, move } = require('pinch-to-zoom-utils');
 ```
 ```ecmascript 6
-import { zoomAndMove, move} from 'container-pinch-to-zoom';
+import { zoomAndMove, move} from 'pinch-to-zoom-utils';
 ```
 The library offers es5 and es6
 

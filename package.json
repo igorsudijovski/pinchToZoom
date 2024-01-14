@@ -1,5 +1,5 @@
 {
-  "name": "container-pinch-to-zoom",
+  "name": "pinch-to-zoom-utils",
   "description": "Utils function for handling pinch to zoom",
   "scripts": {
     "compile": "npm run lint && rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
@@ -20,7 +20,7 @@
     "touchmove",
     "pinchToZoom",
     "pinch-to-zoom",
-    "container-pinch-to-zoom",
+    "pinch-to-zoom-utils",
     "vanilla",
     "react",
     "svelte",
